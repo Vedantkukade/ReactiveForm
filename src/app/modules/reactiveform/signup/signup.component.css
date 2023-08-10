@@ -1,0 +1,28 @@
+
+  
+  .example-section {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    height: 60px;
+  }
+  
+.parent{
+    display: flex;
+    width: 100%;
+ 
+ 
+}
+
+.main{
+    
+    width:461px;
+    margin: auto;
+   
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

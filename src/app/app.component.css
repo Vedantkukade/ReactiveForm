@@ -1,0 +1,53 @@
+body{
+   
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    /* background-image: url("C:\Vedant\Senwell\Angular\senwell\reactiveform\src\assets\download.jpeg"); */
+    background-color:lightblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.main{
+
+    padding-top: 200px;
+    padding-left: 120px;
+ 
+}
+.parent{
+    background-color:lightcyan;
+   
+    width: 400px;
+    height: 350px;
+    
+    margin-left: 420px;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.name{
+    margin-top: 20px;
+    margin-bottom: 35px;
+
+}
+
+.name h2{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span{
+    color: red;
+    
+}
+
+
+
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

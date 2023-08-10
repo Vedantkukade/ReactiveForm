@@ -1,0 +1,71 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+ 
+    <div class="main">
+      <div class="parent">
+        <div class="name">
+          <h2 class="text-center" >Login Form</h2>
+        </div>
+        <div class="form d-flex align-items-center justify-content-center">
+          <form class="form-horizontal" [formGroup]="loginform" (ngSubmit)="submit()">
+            <div class="child">
+              <div class="form-group">
+                <label for="email">Email: </label>
+                <input class="form-control" type="text" formControlName="email" placeholder="Enter Email">
+
+                <span *ngIf="!loginform.controls['email'].valid && loginform.controls['email'].touched">
+                  Email is required
+                </span>
+
+                <span *ngIf="!loginform.controls['email'].invalid && loginform.controls['email'].touched">
+                  Email id not correct
+                </span> -->
+
+                <!-- <span *ngIf="loginform.controls['email'].hasError('required') && loginform.controls['email'].touched">Email is required
+                </span>
+                <span  *ngIf="loginform.controls['email'].hasError('email') && loginform.controls['email'].touched" > Email is not correct </span> -->
+
+<!-- 
+              </div>
+              <div class="form-group">
+                <label for="password">Password: </label>
+                <input class="form-control" type="password" formControlName="password" placeholder="Enter Password">
+                
+                <span *ngIf="!loginform.controls['password'].valid && loginform.controls['password'].touched">
+                  Password is required
+                </span> -->
+
+                <!-- <span *ngIf="loginform.controls['password'].hasError('required') && loginform.controls['password'].touched">
+                  Password is required
+                </span> -->
+
+                <!-- <span *ngIf="loginform.controls['password']?.hasError('passwordstrength') && loginform.controls['password'].touched">
+                  {{ loginform.controls['password']?.errors['passwordstrength'] }}
+                </span> -->
+                
+               
+              <!-- </div>
+  
+            </div>
+            
+            <div class="button d-flex justify-content-center">
+              <button class="btn btn-primary" [disabled]="!loginform.valid">Submit</button>
+            </div>
+          </form>
+        
+        </div>
+
+      </div>
+    </div>
+</body>
+</html> -->
+
+<router-outlet></router-outlet>
